@@ -1,0 +1,58 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>DSOPCs</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title class="login">Inicio de Sesión</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <form [formGroup]="formularioLogin">
+
+      <div class="Email">
+        <ion-item>
+          <ion-input label="Email:" type="email" placeholder="Email@domain.com"></ion-input>
+        </ion-item>
+      </div>
+
+      <br>
+
+      <div class="recordar">
+        <a href="/src/app/pages/olvido/olvido.page.html">¿Olvido su Contraseña?</a>
+      </div>
+      <div class="password">
+        <ion-item>
+          <ion-input label="Confirmar Contraseña:" type="password" value="password"></ion-input>
+        </ion-item>
+    </div>
+    </form>
+    <br>
+  <div class="boton">
+    <ion-button color="medium" slot="end" (click)="irPagina()">Confirmar</ion-button>
+  </div>
+  </ion-card-content>
+  <p>Este sitio está protegido por Duoc y se aplican las Políticas de privacidad y Condiciones de servicio de Duoc.</p>
+</ion-card>
+
+<br>
+<br>
+
+<ion-card>
+<div class="boton_registro">
+<p>Eres nuevo? registrate aqui</p>
+<ion-button color="primary" (click)="irRegistro()">Registrate</ion-button>
+</div>
+</ion-card>
+</ion-content>
+
+<ion-footer>
+
+  
+</ion-footer>

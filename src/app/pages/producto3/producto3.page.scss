@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh;           /* Ocupa toda la altura de la pantalla */
+}
+
+img {
+    max-width: 100%;         /* Asegura que la imagen no se salga del contenedor */
+    height: auto;            /* Mantiene la proporción de la imagen */
+}

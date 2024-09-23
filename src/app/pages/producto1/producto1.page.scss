@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height:60vh;           /* Ocupa toda la altura de la pantalla */
+}
+
+img {
+    max-width: 100%;         /* Asegura que la imagen no se salga del contenedor */
+    height: auto;            /* Mantiene la proporción de la imagen */
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_carro_1{
+    display: flex;
+    justify-content: center;
+}
+
+.pie{
+    display: flex;
+    text-align: center;
+}
+
+.precio{
+    display:flex;
+    justify-content:center;
+}
+.entre{
+    display: flex;
+    justify-content: center;
+}
